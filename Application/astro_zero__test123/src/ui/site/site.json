@@ -1,0 +1,308 @@
+{
+  "siteId" : "69612",
+  "revisionId" : "1529106",
+  "catalogName" : "astro_zero__test123",
+  "originWebsiteId" : "001S000001H3hai7EzT6",
+  "originWebsiteName" : "astro_zero__test123_00000000018NewrFYLGC",
+  "siteBasePath" : "",
+  "catalogPages" : [ {
+    "id" : "192764660bc-3f2341dc-89a2-48c1-8190-a2f62e15225b",
+    "name" : "abc",
+    "index" : 1,
+    "folder" : "003f000000kxaz1iXBOi",
+    "revision" : "1927649df87-e30cf74b-002b-4e94-a387-613d7f7ef149"
+  } ],
+  "catalogFacets" : {
+    "combinedCustomGlobalResources" : "false",
+    "enablePreviewMode" : "false",
+    "restrictOtherDomainAccess" : "false",
+    "enableSemanticUrl" : "false",
+    "waitForPageDOMReady" : "true",
+    "allowedProtocol" : "both",
+    "combinedCustomResources" : "false",
+    "enableSiteTemplate" : "false",
+    "supportClientInclude" : "false",
+    "body_suffix" : "",
+    "enableRequireJS" : "true",
+    "default_description" : "",
+    "combinedResourceDomain" : "",
+    "default_title" : "",
+    "supportCORSCHTML" : "true",
+    "skipQPInFtlCache" : "false",
+    "body_prefix" : "",
+    "enableDefaultLoading" : "false",
+    "readerType" : "v2",
+    "supportServerPluginAPIInclude" : "false",
+    "supportServerInclude" : "true",
+    "writeCSSToDOM" : "false",
+    "combinedAllJS" : "false",
+    "X-FRAME-OPTIONS" : "None",
+    "ab_settings" : "false",
+    "includeHTML5DOCTYPE" : "false",
+    "loadResourcesInStudio" : "true",
+    "combinedStudioResources" : "false",
+    "disableDefaultViewport" : "false",
+    "header_prefix" : "",
+    "delayResourceLoad" : "false",
+    "enableRequireForEventAPI" : "false",
+    "enableSemanticUrlWithHP" : "false",
+    "default_keywords" : "",
+    "header_suffix" : ""
+  },
+  "catalogProperties" : { },
+  "views" : [ {
+    "viewId" : "1",
+    "viewName" : "web",
+    "height" : 1080,
+    "width" : 1920,
+    "footerHeight" : 0,
+    "headerHeight" : 0,
+    "footerVisible" : false,
+    "headerVisible" : false,
+    "weight" : 0,
+    "deviceType" : 3,
+    "columns" : 12,
+    "defaultView" : true,
+    "disabled" : false,
+    "resources" : [ ],
+    "config" : { },
+    "dynamicPages" : [ ],
+    "libraryConfig" : { },
+    "viewCookie" : { }
+  }, {
+    "viewId" : "2",
+    "viewName" : "mobile",
+    "height" : 736,
+    "width" : 414,
+    "footerHeight" : 0,
+    "headerHeight" : 0,
+    "footerVisible" : false,
+    "headerVisible" : false,
+    "weight" : 0,
+    "deviceType" : 1,
+    "columns" : 4,
+    "defaultView" : false,
+    "disabled" : false,
+    "resources" : [ ],
+    "config" : { },
+    "dynamicPages" : [ ],
+    "libraryConfig" : { },
+    "viewCookie" : { }
+  } ],
+  "global" : {
+    "catalogName" : "astro_zero__test123",
+    "macros" : [ ],
+    "streamDomains" : {
+      "DEV" : {
+        "domainName" : "${partner_cdn_domain}"
+      },
+      "STG" : {
+        "domainName" : "${partner_cdn_domain}"
+      },
+      "PREPROD" : {
+        "domainName" : "${partner_cdn_domain}"
+      },
+      "PROD" : {
+        "domainName" : "${partner_cdn_domain}"
+      }
+    },
+    "publishProxyDomains" : {
+      "DEV" : {
+        "domainName" : "",
+        "ipAddress" : ""
+      },
+      "STG" : {
+        "domainName" : "",
+        "ipAddress" : ""
+      },
+      "PREPROD" : {
+        "domainName" : "",
+        "ipAddress" : ""
+      },
+      "PROD" : {
+        "domainName" : "",
+        "ipAddress" : ""
+      }
+    },
+    "analyticsProperties" : {
+      "baiduAnalytics" : {
+        "DEV" : {
+          "analyticsId" : ""
+        },
+        "STG" : {
+          "analyticsId" : ""
+        },
+        "PREPROD" : {
+          "analyticsId" : ""
+        },
+        "PROD" : {
+          "analyticsId" : ""
+        }
+      },
+      "googleAnalytics" : {
+        "DEV" : {
+          "analyticsId" : "",
+          "pageTracking" : false,
+          "eventTracking" : false
+        },
+        "STG" : {
+          "analyticsId" : "",
+          "pageTracking" : false,
+          "eventTracking" : false
+        },
+        "PREPROD" : {
+          "analyticsId" : "",
+          "pageTracking" : false,
+          "eventTracking" : false
+        },
+        "PROD" : {
+          "analyticsId" : "",
+          "pageTracking" : false,
+          "eventTracking" : false
+        }
+      }
+    }
+  },
+  "pages" : [ ],
+  "common" : {
+    "header" : {
+      "1" : {
+        "absoluteWidgets" : [ ]
+      },
+      "2" : {
+        "absoluteWidgets" : [ ]
+      }
+    },
+    "footer" : {
+      "1" : {
+        "absoluteWidgets" : [ ]
+      },
+      "2" : {
+        "absoluteWidgets" : [ ]
+      }
+    }
+  },
+  "widgetLibrary" : [ ],
+  "commonProperties" : {
+    "pageProperties" : { },
+    "pageFacets" : {
+      "transition" : "",
+      "page_title" : "",
+      "page_keywords" : "",
+      "page_content" : "",
+      "page_description" : "",
+      "cache_control_max_age" : ""
+    },
+    "itemProperties" : { },
+    "itemFacets" : { },
+    "proxyProperties" : { }
+  },
+  "catalogMetaTags" : { },
+  "collections" : [ ],
+  "includes" : [ {
+    "resourceId" : "0",
+    "displayName" : "Vue 3",
+    "fileURL" : "global_Vue3",
+    "fileType" : "Library",
+    "fileScope" : "pageLevel",
+    "pluginInfo" : {
+      "pluginId" : "18c7dc25357-755bd3a5-a5b0-4d58-a29e-08e3fa7edc82",
+      "libraryId" : "global_Vue3",
+      "pluginVersion" : "3.4.21"
+    },
+    "forbidInStudio" : false
+  }, {
+    "resourceId" : "1",
+    "displayName" : "Vue I18n for Vue 3",
+    "fileURL" : "global_Vue3I18n",
+    "fileType" : "Library",
+    "fileScope" : "pageLevel",
+    "pluginInfo" : {
+      "pluginId" : "18c7dc2535b-6d1d987a-63fd-4710-b071-72ae2712ad51",
+      "libraryId" : "global_Vue3I18n",
+      "pluginVersion" : "9.10.1"
+    },
+    "forbidInStudio" : false
+  }, {
+    "resourceId" : "2",
+    "displayName" : "Vue3WidgetTools",
+    "fileURL" : "global_Vue3WidgetTools",
+    "fileType" : "Library",
+    "fileScope" : "pageLevel",
+    "pluginInfo" : {
+      "pluginId" : "18c7dc320e8-f47752ff-b76a-4bda-a645-f509c593653a",
+      "libraryId" : "global_Vue3WidgetTools",
+      "pluginVersion" : "1.0.1"
+    },
+    "forbidInStudio" : false
+  }, {
+    "resourceId" : "3",
+    "displayName" : "Element Plus for Vue 3",
+    "fileURL" : "global_ElementPlus",
+    "fileType" : "Library",
+    "fileScope" : "pageLevel",
+    "pluginInfo" : {
+      "pluginId" : "18c7dc25358-4799b413-d16d-408c-9c3d-07cd405988fc",
+      "libraryId" : "global_ElementPlus",
+      "pluginVersion" : "2.6.0"
+    },
+    "forbidInStudio" : false
+  }, {
+    "resourceId" : "4",
+    "displayName" : "echarts",
+    "fileURL" : "global_echarts",
+    "fileType" : "Library",
+    "fileScope" : "pageLevel",
+    "pluginInfo" : {
+      "pluginId" : "172c14b197e-9dfb74c6-b428-4efe-a325-1e5815c480fb",
+      "libraryId" : "global_echarts",
+      "pluginVersion" : "102.0.4"
+    },
+    "forbidInStudio" : false
+  }, {
+    "resourceId" : "5",
+    "displayName" : "EchartTheme",
+    "fileURL" : "global_EchartTheme",
+    "fileType" : "Library",
+    "fileScope" : "pageLevel",
+    "pluginInfo" : {
+      "pluginId" : "17ab5d953e8-81e688cc-30a4-40ca-aec2-696329687766",
+      "libraryId" : "global_EchartTheme",
+      "pluginVersion" : "1.0.14"
+    },
+    "forbidInStudio" : false
+  } ],
+  "pluginIncludes" : [ {
+    "pluginInfo" : {
+      "pluginId" : "18c7dc32b28-ec5f2b76-3b8f-41f3-8fc3-6099506a0fb1",
+      "libraryId" : "global_Vue3RadarChartWidget",
+      "pluginVersion" : "1.0.10"
+    }
+  }, {
+    "pluginInfo" : {
+      "pluginId" : "172c14b7bd6-e5613641-723e-4ee2-a838-b5069495cd9f",
+      "libraryId" : "global_connector_RadarChartDataSingleConnector",
+      "pluginVersion" : "1.0.7"
+    }
+  } ],
+  "resources" : [ ],
+  "assets" : [ ],
+  "snippets" : [ ],
+  "abTestingDuration" : 0.0,
+  "supportServerInclude" : true,
+  "enableRequireForEventAPI" : false,
+  "sourceTemplate" : { },
+  "templateCampaign" : { },
+  "visibleLayouts" : [ 1, 2, 3, 4, 5, 6, 7, 8, 8, 10, 11, 12, 13, 14, 15, 16, 17, 18, 19, 20, 21, 22, 23 ],
+  "customLayouts" : [ ],
+  "lastPageId" : "0",
+  "saveGlobalObj" : true,
+  "parentViews" : [ ],
+  "parentIncludes" : [ ],
+  "resourceConnector" : "",
+  "resourceConnectorType" : "",
+  "resourceBucket" : "",
+  "folders" : "[]",
+  "ba" : false,
+  "isDv" : false
+}

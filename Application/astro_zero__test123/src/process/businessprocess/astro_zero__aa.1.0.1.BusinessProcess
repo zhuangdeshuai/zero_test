@@ -1,0 +1,292 @@
+{
+	"active": false,
+	"belongTo": "000f000001H3hajpOy7E",
+	"belongTo.__objectType": "Application",
+	"belongTo.name": "astro_zero__test123",
+	"compilerVer": 2,
+	"config": null,
+	"createdDate": "2024-10-23 08:22:30",
+	"custom": true,
+	"description": "",
+	"extRef": null,
+	"fromInstall": null,
+	"id": "001L000001HPMrkRIf7A",
+	"instanceLabel": "",
+	"jsonDefinition": {
+		"active": false,
+		"description": "",
+		"endEvents": [
+			{
+				"label": "End",
+				"locationX": 1125,
+				"locationY": 325,
+				"name": "end",
+				"type": "End"
+			}
+		],
+		"exclusiveGateways": [
+			{
+				"connectors": [
+					{
+						"criteria": "",
+						"isDefault": true,
+						"label": "rejected",
+						"name": "conn",
+						"to": "userTask",
+						"toPoint": "{\"fromPort\":\"T1\",\"toPort\":\"B1\",\"points\":[\"375 298.5\",\"375 274.5\",\"375 274.5\",\"375 274.5\",\"375 153\",\"375 129\"]}"
+					},
+					{
+						"criteria": " {!$BP.TaskOutcome} == \"approve\" ",
+						"isDefault": false,
+						"name": "conn1",
+						"to": "userTask2",
+						"toPoint": "{\"fromPort\":\"R1\",\"toPort\":\"L1\",\"points\":[\"401.5 325\",\"425.5 325\",\"441.25 325\",\"441.25 325\",\"457 325\",\"481 325\"]}"
+					}
+				],
+				"label": "Next?",
+				"locationX": 375,
+				"locationY": 325,
+				"name": "exclusive"
+			},
+			{
+				"connectors": [
+					{
+						"criteria": "",
+						"isDefault": true,
+						"label": "rejected",
+						"name": "conn2",
+						"to": "userTask",
+						"toPoint": "{\"fromPort\":\"T1\",\"toPort\":\"R2\",\"points\":[\"650 298.5\",\"650 274.5\",\"650 114.5\",\"546.5 114.5\",\"443 114.5\",\"419 114.5\"],\"segmentOffset\":\"21 -28\"}"
+					},
+					{
+						"criteria": " {!$BP.TaskOutcome} == \"approve\" ",
+						"isDefault": false,
+						"name": "conn3",
+						"to": "userTask3",
+						"toPoint": "{\"fromPort\":\"R1\",\"toPort\":\"L1\",\"points\":[\"676.5 325\",\"700.5 325\",\"716.25 325\",\"716.25 325\",\"732 325\",\"756 325\"]}"
+					}
+				],
+				"label": "Next?",
+				"locationX": 650,
+				"locationY": 325,
+				"name": "exclusive1"
+			},
+			{
+				"connectors": [
+					{
+						"criteria": "",
+						"isDefault": true,
+						"label": "rejected",
+						"name": "conn4",
+						"to": "userTask",
+						"toPoint": "{\"fromPort\":\"T1\",\"toPort\":\"R1\",\"points\":[\"950 298.5\",\"950 274.5\",\"950 100\",\"696.5 100\",\"443 100\",\"419 100\"]}"
+					},
+					{
+						"criteria": " {!$BP.TaskOutcome} == \"approve\" ",
+						"isDefault": false,
+						"name": "conn5",
+						"to": "mailTask",
+						"toPoint": "{\"fromPort\":\"B1\",\"toPort\":\"T1\",\"points\":[\"950 351.5\",\"950 375.5\",\"950 436.25\",\"950 436.25\",\"950 497\",\"950 521\"]}"
+					}
+				],
+				"label": "Done?",
+				"locationX": 950,
+				"locationY": 325,
+				"name": "exclusive2"
+			}
+		],
+		"extRef": "",
+		"id": "",
+		"instanceLabel": "",
+		"interfaces": [
+			{
+				"operation": "start",
+				"startType": "FORM_START"
+			}
+		],
+		"label": "aa",
+		"laneSet": {
+			"label": "",
+			"lanes": [
+				{
+					"color": "#6fe4d1",
+					"elements": [
+						"start",
+						"userTask"
+					],
+					"height": 200,
+					"label": "Applicant",
+					"locationX": 72,
+					"name": "lane",
+					"width": 2054
+				},
+				{
+					"color": "#558bf0",
+					"elements": [
+						"userTask1",
+						"exclusive",
+						"userTask2",
+						"exclusive1",
+						"userTask3",
+						"exclusive2",
+						"end"
+					],
+					"height": 260,
+					"label": "Managers",
+					"locationX": 72,
+					"locationY": 200,
+					"name": "lane1",
+					"width": 2054
+				},
+				{
+					"color": "#f4d96d",
+					"elements": [
+						"mailTask"
+					],
+					"height": 200,
+					"label": "System",
+					"locationX": 72,
+					"locationY": 460,
+					"name": "lane2",
+					"width": 2054
+				}
+			],
+			"name": ""
+		},
+		"lastModifiedBy": "FFFFFFFFFFFFFFFFFFFF",
+		"localUrl": "",
+		"name": "astro_zero__aa",
+		"noMatchedError": false,
+		"serviceTasks": [
+			{
+				"connector": "end",
+				"connectorPoint": "{\"fromPort\":\"R1\",\"toPort\":\"B1\",\"points\":[\"994 550\",\"1018 550\",\"1020 550\",\"1020 550\",\"1125 550\",\"1125 375.5\",\"1125 351.5\"]}",
+				"inputAssignments": [
+					{
+						"externalUsed": false,
+						"input": "subject",
+						"name": "",
+						"value": "Approved",
+						"valueType": "String"
+					},
+					{
+						"externalUsed": false,
+						"input": "body",
+						"name": "",
+						"value": "Your request is approved!",
+						"valueType": "String"
+					}
+				],
+				"label": "Notify",
+				"locationX": 950,
+				"locationY": 550,
+				"name": "mailTask",
+				"type": "SendEmail"
+			}
+		],
+		"startEvents": [
+			{
+				"connector": "userTask1",
+				"connectorPoint": "{\"fromPort\":\"B1\",\"toPort\":\"L1\",\"points\":[\"125 126.5\",\"125 150.5\",\"125 148\",\"125 148\",\"125 325\",\"132 325\",\"156 325\"]}",
+				"label": "Start",
+				"locationX": 125,
+				"locationY": 100,
+				"name": "start",
+				"startType": "FORM_START",
+				"type": "Start"
+			}
+		],
+		"startType": "FORM_START",
+		"status": "Error",
+		"userTasks": [
+			{
+				"approvalType": "Single",
+				"connector": "userTask1",
+				"connectorPoint": "{\"fromPort\":\"L1\",\"toPort\":\"T1\",\"points\":[\"331 100\",\"307 100\",\"200 100\",\"200 186\",\"200 272\",\"200 296\"]}",
+				"groupAsSingleParticipant": false,
+				"label": "Resubmit",
+				"locationX": 375,
+				"locationY": 100,
+				"name": "userTask",
+				"priority": 3,
+				"routeType": "Last Assignee In Lane",
+				"router": {
+					"defaultRouteTo": "",
+					"defaultRouteType": "",
+					"externalUsed": false,
+					"name": ""
+				}
+			},
+			{
+				"approvalType": "Single",
+				"connector": "exclusive",
+				"connectorPoint": "{\"fromPort\":\"R1\",\"toPort\":\"L1\",\"points\":[\"244 325\",\"268 325\",\"296.25 325\",\"296.25 325\",\"324.5 325\",\"348.5 325\"]}",
+				"groupAsSingleParticipant": false,
+				"label": "1st Manager",
+				"locationX": 200,
+				"locationY": 325,
+				"name": "userTask1",
+				"priority": 3,
+				"routeType": "Router",
+				"router": {
+					"defaultRouteTo": "",
+					"defaultRouteType": "Reporting manager",
+					"externalUsed": false,
+					"name": ""
+				}
+			},
+			{
+				"approvalType": "Single",
+				"connector": "exclusive1",
+				"connectorPoint": "{\"fromPort\":\"R1\",\"toPort\":\"L1\",\"points\":[\"569 325\",\"593 325\",\"596.25 325\",\"596.25 325\",\"599.5 325\",\"623.5 325\"]}",
+				"groupAsSingleParticipant": false,
+				"label": "2nd Manager",
+				"locationX": 525,
+				"locationY": 325,
+				"name": "userTask2",
+				"priority": 3,
+				"routeType": "Router",
+				"router": {
+					"defaultRouteTo": "",
+					"defaultRouteType": "Reporting manager",
+					"externalUsed": false,
+					"name": ""
+				}
+			},
+			{
+				"approvalType": "Single",
+				"connector": "exclusive2",
+				"connectorPoint": "{\"fromPort\":\"R1\",\"toPort\":\"L1\",\"points\":[\"844 325\",\"868 325\",\"883.75 325\",\"883.75 325\",\"899.5 325\",\"923.5 325\"]}",
+				"groupAsSingleParticipant": false,
+				"label": "3rd Manager",
+				"locationX": 800,
+				"locationY": 325,
+				"name": "userTask3",
+				"priority": 3,
+				"routeType": "Router",
+				"router": {
+					"defaultRouteTo": "",
+					"defaultRouteType": "Reporting manager",
+					"externalUsed": false,
+					"name": ""
+				}
+			}
+		],
+		"version": ""
+	},
+	"label": "aa",
+	"lastModifiedDate": "2024-10-23 08:22:30",
+	"localUrl": "",
+	"logo": null,
+	"name": "astro_zero__aa",
+	"overridable": true,
+	"protectMode": 0,
+	"published": false,
+	"startStage": null,
+	"startType": "FORM_START",
+	"status": "Unknown",
+	"status.name": "Unknown",
+	"version": "1.0.1",
+	"visibility": 0,
+	"webSite": null
+}

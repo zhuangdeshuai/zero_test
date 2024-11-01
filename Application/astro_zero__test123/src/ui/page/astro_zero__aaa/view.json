@@ -1,0 +1,571 @@
+{
+  "key" : 1,
+  "type" : "DesignerPage",
+  "version" : "1.0.2",
+  "props" : {
+    "name" : "DesignerPage_1",
+    "isPullRefresh" : false,
+    "requireAuth" : false,
+    "elementStyle" : false
+  },
+  "on" : { },
+  "elements" : [ {
+    "key" : 1729215009503000,
+    "type" : "form",
+    "props" : {
+      "col" : 1,
+      "labelPosition" : "top",
+      "labelWidth" : 120,
+      "name" : "form_0",
+      "flex" : false,
+      "hidden" : false,
+      "disabled" : false,
+      "readonly" : false,
+      "dataSourceId" : "stad00000000000000GH",
+      "dataSource" : "AttachFile",
+      "dataSourceType" : "Entity",
+      "layout" : {
+        "key" : "one_one_one",
+        "value" : [ 8, 8, 8 ]
+      }
+    },
+    "attrs" : { },
+    "on" : { },
+    "elements" : [ {
+      "key" : 1729215006118008,
+      "type" : "row",
+      "props" : {
+        "layout" : {
+          "pc" : {
+            "key" : "one_one_one",
+            "value" : [ 8, 8, 8 ]
+          },
+          "pad" : {
+            "key" : "pad1",
+            "value" : [ 24 ]
+          },
+          "phone" : {
+            "key" : "phone1",
+            "value" : [ 24 ]
+          }
+        },
+        "type" : "",
+        "justify" : "",
+        "name" : "row_0"
+      },
+      "attrs" : { },
+      "on" : { },
+      "elements" : [ {
+        "key" : 1729215006118005,
+        "type" : "col",
+        "props" : {
+          "type" : "",
+          "align" : "left",
+          "verticalAlign" : "",
+          "justify" : "",
+          "bottomBorder" : true,
+          "lg" : 8,
+          "md" : 8,
+          "sm" : 24,
+          "xs" : 24,
+          "name" : "col_1"
+        },
+        "attrs" : { },
+        "on" : { },
+        "elements" : [ {
+          "key" : 1729215006118004,
+          "type" : "input",
+          "props" : {
+            "label" : "名称",
+            "type" : "text",
+            "transmitStyle" : true,
+            "customValidateContent" : "// return false;\n// return {result:false, message:''};",
+            "maxlength" : 255,
+            "maxWidth" : "100%",
+            "dataField" : "name",
+            "dataFieldType" : "xs_string",
+            "name" : "input_1"
+          },
+          "attrs" : { },
+          "on" : { },
+          "elements" : [ ],
+          "dataBinding" : {
+            "default" : {
+              "model" : [ "form_0", "name" ]
+            }
+          },
+          "widget2" : false,
+          "hasCustomPanel" : false
+        } ],
+        "widget2" : false,
+        "hasCustomPanel" : false
+      }, {
+        "key" : 1729215006118007,
+        "type" : "col",
+        "props" : {
+          "type" : "",
+          "align" : "left",
+          "verticalAlign" : "",
+          "justify" : "",
+          "bottomBorder" : true,
+          "lg" : 8,
+          "md" : 8,
+          "sm" : 24,
+          "xs" : 24,
+          "name" : "col_2"
+        },
+        "attrs" : { },
+        "on" : { },
+        "elements" : [ {
+          "key" : 1729215006118006,
+          "type" : "input",
+          "props" : {
+            "label" : "文件名称",
+            "type" : "text",
+            "transmitStyle" : true,
+            "customValidateContent" : "// return false;\n// return {result:false, message:''};",
+            "maxlength" : 255,
+            "maxWidth" : "100%",
+            "dataField" : "fileName",
+            "dataFieldType" : "xs_string",
+            "name" : "input_2",
+            "required" : true
+          },
+          "attrs" : { },
+          "on" : { },
+          "elements" : [ ],
+          "dataBinding" : {
+            "default" : {
+              "model" : [ "form_0", "fileName" ]
+            }
+          },
+          "widget2" : false,
+          "hasCustomPanel" : false
+        } ],
+        "widget2" : false,
+        "hasCustomPanel" : false
+      } ],
+      "widget2" : false,
+      "hasCustomPanel" : false
+    }, {
+      "key" : 1729215006118015,
+      "type" : "row",
+      "props" : {
+        "layout" : {
+          "pc" : {
+            "key" : "one_one_one",
+            "value" : [ 8, 8, 8 ]
+          },
+          "pad" : {
+            "key" : "pad1",
+            "value" : [ 24 ]
+          },
+          "phone" : {
+            "key" : "phone1",
+            "value" : [ 24 ]
+          }
+        },
+        "type" : "",
+        "justify" : "",
+        "name" : "row_1"
+      },
+      "attrs" : { },
+      "on" : { },
+      "elements" : [ {
+        "key" : 1729215006118010,
+        "type" : "col",
+        "props" : {
+          "type" : "",
+          "align" : "left",
+          "verticalAlign" : "",
+          "justify" : "",
+          "bottomBorder" : true,
+          "lg" : 8,
+          "md" : 8,
+          "sm" : 24,
+          "xs" : 24,
+          "name" : "col_3"
+        },
+        "attrs" : { },
+        "on" : { },
+        "elements" : [ {
+          "key" : 1729215006118009,
+          "type" : "input",
+          "props" : {
+            "label" : "文件类别",
+            "type" : "text",
+            "transmitStyle" : true,
+            "customValidateContent" : "// return false;\n// return {result:false, message:''};",
+            "maxlength" : 255,
+            "maxWidth" : "100%",
+            "dataField" : "category",
+            "dataFieldType" : "xs_string",
+            "name" : "input_3"
+          },
+          "attrs" : { },
+          "on" : { },
+          "elements" : [ ],
+          "dataBinding" : {
+            "default" : {
+              "model" : [ "form_0", "category" ]
+            }
+          },
+          "widget2" : false,
+          "hasCustomPanel" : false
+        } ],
+        "widget2" : false,
+        "hasCustomPanel" : false
+      }, {
+        "key" : 1729215006118012,
+        "type" : "col",
+        "props" : {
+          "type" : "",
+          "align" : "left",
+          "verticalAlign" : "",
+          "justify" : "",
+          "bottomBorder" : true,
+          "lg" : 8,
+          "md" : 8,
+          "sm" : 24,
+          "xs" : 24,
+          "name" : "col_4"
+        },
+        "attrs" : { },
+        "on" : { },
+        "elements" : [ {
+          "key" : 1729215006118011,
+          "type" : "input",
+          "props" : {
+            "label" : "文件URL",
+            "type" : "text",
+            "transmitStyle" : true,
+            "customValidateContent" : "// return false;\n// return {result:false, message:''};",
+            "maxlength" : 255,
+            "maxWidth" : "100%",
+            "dataField" : "url",
+            "dataFieldType" : "xs_string",
+            "name" : "input_4",
+            "required" : true
+          },
+          "attrs" : { },
+          "on" : { },
+          "elements" : [ ],
+          "dataBinding" : {
+            "default" : {
+              "model" : [ "form_0", "url" ]
+            }
+          },
+          "widget2" : false,
+          "hasCustomPanel" : false
+        } ],
+        "widget2" : false,
+        "hasCustomPanel" : false
+      }, {
+        "key" : 1729215006118014,
+        "type" : "col",
+        "props" : {
+          "type" : "",
+          "align" : "left",
+          "verticalAlign" : "",
+          "justify" : "",
+          "bottomBorder" : true,
+          "lg" : 8,
+          "md" : 8,
+          "sm" : 24,
+          "xs" : 24,
+          "name" : "col_5"
+        },
+        "attrs" : { },
+        "on" : { },
+        "elements" : [ {
+          "key" : 1729215006118013,
+          "type" : "input",
+          "props" : {
+            "label" : "实例ID",
+            "type" : "text",
+            "transmitStyle" : true,
+            "customValidateContent" : "// return false;\n// return {result:false, message:''};",
+            "maxlength" : 255,
+            "maxWidth" : "100%",
+            "dataField" : "instanceID",
+            "dataFieldType" : "xs_string",
+            "name" : "input_5",
+            "required" : true
+          },
+          "attrs" : { },
+          "on" : { },
+          "elements" : [ ],
+          "dataBinding" : {
+            "default" : {
+              "model" : [ "form_0", "instanceID" ]
+            }
+          },
+          "widget2" : false,
+          "hasCustomPanel" : false
+        } ],
+        "widget2" : false,
+        "hasCustomPanel" : false
+      } ],
+      "widget2" : false,
+      "hasCustomPanel" : false
+    }, {
+      "key" : 1729215006118018,
+      "type" : "row",
+      "props" : {
+        "layout" : {
+          "pc" : {
+            "key" : "one_one_one",
+            "value" : [ 8, 8, 8 ]
+          },
+          "pad" : {
+            "key" : "pad1",
+            "value" : [ 24 ]
+          },
+          "phone" : {
+            "key" : "phone1",
+            "value" : [ 24 ]
+          }
+        },
+        "type" : "",
+        "justify" : "",
+        "name" : "row_2"
+      },
+      "attrs" : { },
+      "on" : { },
+      "elements" : [ {
+        "key" : 1729215006118017,
+        "type" : "col",
+        "props" : {
+          "type" : "",
+          "align" : "left",
+          "verticalAlign" : "",
+          "justify" : "",
+          "bottomBorder" : true,
+          "lg" : 8,
+          "md" : 8,
+          "sm" : 24,
+          "xs" : 24,
+          "name" : "col_6"
+        },
+        "attrs" : { },
+        "on" : { },
+        "elements" : [ {
+          "key" : 1729215006118016,
+          "type" : "input",
+          "props" : {
+            "label" : "任务ID",
+            "type" : "text",
+            "transmitStyle" : true,
+            "customValidateContent" : "// return false;\n// return {result:false, message:''};",
+            "maxlength" : 255,
+            "maxWidth" : "100%",
+            "dataField" : "taskID",
+            "dataFieldType" : "xs_string",
+            "name" : "input_6"
+          },
+          "attrs" : { },
+          "on" : { },
+          "elements" : [ ],
+          "dataBinding" : {
+            "default" : {
+              "model" : [ "form_0", "taskID" ]
+            }
+          },
+          "widget2" : false,
+          "hasCustomPanel" : false
+        } ],
+        "widget2" : false,
+        "hasCustomPanel" : false
+      } ],
+      "widget2" : false,
+      "hasCustomPanel" : false
+    }, {
+      "key" : 1729215006118021,
+      "type" : "container",
+      "props" : {
+        "direction" : "row",
+        "justify" : "flex-start",
+        "alignItems" : "flex-start",
+        "align" : "right",
+        "singleline" : true,
+        "name" : "container_0"
+      },
+      "attrs" : { },
+      "on" : { },
+      "elements" : [ {
+        "key" : 1729215006118019,
+        "type" : "button",
+        "props" : {
+          "text" : "保存",
+          "type" : "primary",
+          "size" : "large",
+          "shape" : "square",
+          "iconAlign" : "left",
+          "style" : "margin-right:24px;",
+          "class" : "ivu-btn-auto-margin",
+          "name" : "button_0",
+          "loading" : false,
+          "plain" : false,
+          "hidden" : false,
+          "disabled" : false
+        },
+        "attrs" : { },
+        "on" : {
+          "click" : "butto_click_1729215006118019"
+        },
+        "elements" : [ ],
+        "labelColSpan" : 8,
+        "labelWidth" : "calc(100% / 24 * 8)",
+        "widget2" : false,
+        "hasCustomPanel" : false
+      }, {
+        "key" : 1729215006118020,
+        "type" : "button",
+        "props" : {
+          "text" : "重置",
+          "type" : "ghost",
+          "size" : "large",
+          "shape" : "square",
+          "iconAlign" : "left",
+          "style" : "margin-right:24px;margin-left:0px",
+          "class" : "ivu-btn-auto-margin",
+          "name" : "button_1",
+          "loading" : false,
+          "plain" : false,
+          "hidden" : false,
+          "disabled" : false
+        },
+        "attrs" : { },
+        "on" : {
+          "click" : "butto_click_1729215006118020"
+        },
+        "elements" : [ ],
+        "labelColSpan" : 8,
+        "labelWidth" : "calc(100% / 24 * 8)",
+        "widget2" : false,
+        "hasCustomPanel" : false
+      }, {
+        "key" : 1729219857753001,
+        "type" : "container",
+        "props" : {
+          "direction" : "row",
+          "justify" : "flex-start",
+          "alignItems" : "flex-start",
+          "align" : "right",
+          "paddingButton" : true,
+          "name" : "container_1"
+        },
+        "attrs" : { },
+        "on" : { },
+        "elements" : [ {
+          "key" : 1729219857753000,
+          "type" : "button",
+          "props" : {
+            "text" : "button",
+            "type" : "primary",
+            "size" : "large",
+            "shape" : "square",
+            "iconAlign" : "left",
+            "style" : "",
+            "class" : "ivu-btn-auto-margin",
+            "name" : "button_2"
+          },
+          "attrs" : { },
+          "on" : {
+            "click" : "butto_click_1729219857753000"
+          },
+          "elements" : [ ],
+          "labelColSpan" : 8,
+          "labelWidth" : "calc(100% / 24 * 8)",
+          "widget2" : false,
+          "hasCustomPanel" : false
+        } ],
+        "widget2" : false,
+        "hasCustomPanel" : false
+      } ],
+      "widget2" : false,
+      "hasCustomPanel" : false
+    }, {
+      "key" : 1730424699711004,
+      "type" : "row",
+      "props" : {
+        "layout" : {
+          "pc" : {
+            "key" : "one",
+            "value" : [ 24 ]
+          },
+          "phone" : {
+            "key" : "one",
+            "value" : [ 24 ]
+          }
+        },
+        "type" : "",
+        "justify" : "",
+        "name" : "row_3"
+      },
+      "attrs" : { },
+      "on" : { },
+      "elements" : [ {
+        "key" : 1730424699711001,
+        "type" : "col",
+        "props" : {
+          "type" : "",
+          "align" : "left",
+          "verticalAlign" : "",
+          "justify" : "",
+          "bottomBorder" : true,
+          "lg" : 24,
+          "md" : 24,
+          "sm" : 24,
+          "xs" : 24,
+          "name" : "col_7"
+        },
+        "attrs" : { },
+        "on" : { },
+        "elements" : [ {
+          "key" : 1730424699711000,
+          "type" : "input",
+          "props" : {
+            "label" : "{\"en_US\":\"Input\",\"zh_CN\":\"输入框\"}",
+            "type" : "text",
+            "transmitStyle" : true,
+            "customValidateContent" : "// return false;\n// return {result:false, message:''};",
+            "maxlength" : 255,
+            "maxWidth" : "100%",
+            "name" : "input_7"
+          },
+          "attrs" : { },
+          "on" : { },
+          "elements" : [ ],
+          "labelColSpan" : 8,
+          "labelWidth" : "calc(100% / 24 * 8)",
+          "widget2" : false,
+          "hasCustomPanel" : false
+        } ],
+        "widget2" : false,
+        "hasCustomPanel" : false
+      } ],
+      "widget2" : false,
+      "hasCustomPanel" : false
+    } ],
+    "labelColSpan" : 8,
+    "labelWidth" : "calc(100% / 24 * 8)",
+    "dataBinding" : {
+      "default" : {
+        "model" : [ "form_0" ]
+      }
+    },
+    "widget2" : false,
+    "hasCustomPanel" : false
+  } ],
+  "labelColSpan" : 8,
+  "labelWidth" : "calc(100% / 24 * 8)",
+  "dependencies" : [ {
+    "names" : {
+      "extendNames" : [ ],
+      "pageMasterNames" : [ ],
+      "cardNames" : [ ],
+      "widget2Ids" : [ ]
+    }
+  } ]
+}

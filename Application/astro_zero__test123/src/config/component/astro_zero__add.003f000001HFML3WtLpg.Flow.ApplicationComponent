@@ -1,0 +1,20 @@
+{
+	"appId": "000f000001H3hajpOy7E",
+	"appId.__objectType": "Application",
+	"appId.name": "astro_zero__test123",
+	"belongTo": null,
+	"category": null,
+	"createdDate": "2024-10-17 07:39:04",
+	"custom": true,
+	"fromInstall": null,
+	"id": "003f000001HFML3WtLpg",
+	"lastModifiedDate": "2024-10-17 07:39:04",
+	"name": "astro_zero__add",
+	"parent": "003f000001HFMKPin9qi",
+	"parent.__objectType": "ApplicationComponent",
+	"parent.name": "add",
+	"protectMode": 0,
+	"seqNo": null,
+	"type": "Flow",
+	"visibility": 0
+}

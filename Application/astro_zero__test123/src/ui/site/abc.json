@@ -1,0 +1,212 @@
+{
+  "pageId" : "192764660bc-3f2341dc-89a2-48c1-8190-a2f62e15225b",
+  "pageName" : "abc",
+  "resources" : [ "0", "1", "2", "3", "4", "5" ],
+  "index" : 1,
+  "dimensions" : {
+    "1" : {
+      "width" : 1920,
+      "height" : 1080,
+      "headerVisible" : true,
+      "footerVisible" : true
+    }
+  },
+  "views" : {
+    "1" : {
+      "cells" : {
+        "skPageLayoutCell_192764660bc-3f2341dc-89a2-48c1-8190-a2f62e15225b_id-north" : {
+          "cellId" : "skPageLayoutCell_192764660bc-3f2341dc-89a2-48c1-8190-a2f62e15225b_id-north"
+        },
+        "skPageLayoutCell_192764660bc-3f2341dc-89a2-48c1-8190-a2f62e15225b_id-south" : {
+          "cellId" : "skPageLayoutCell_192764660bc-3f2341dc-89a2-48c1-8190-a2f62e15225b_id-south"
+        },
+        "skPageLayoutCell_192764660bc-3f2341dc-89a2-48c1-8190-a2f62e15225b_id-center" : {
+          "cellId" : "skPageLayoutCell_192764660bc-3f2341dc-89a2-48c1-8190-a2f62e15225b_id-center"
+        }
+      },
+      "layout" : {
+        "layoutId" : "22",
+        "showLayout" : true,
+        "layoutConfig" : {
+          "north" : {
+            "cellId" : "skPageLayoutCell_192764660bc-3f2341dc-89a2-48c1-8190-a2f62e15225b_id-north",
+            "size" : 100,
+            "width" : 0,
+            "height" : 0,
+            "width_percent" : 0.0,
+            "height_percent" : 0.0,
+            "closable" : false,
+            "spacing_open" : 0,
+            "resizable" : false
+          },
+          "south" : {
+            "cellId" : "skPageLayoutCell_192764660bc-3f2341dc-89a2-48c1-8190-a2f62e15225b_id-south",
+            "size" : 200,
+            "width" : 0,
+            "height" : 0,
+            "width_percent" : 0.0,
+            "height_percent" : 0.0,
+            "closable" : false,
+            "spacing_open" : 0,
+            "resizable" : false
+          },
+          "center" : {
+            "cellId" : "skPageLayoutCell_192764660bc-3f2341dc-89a2-48c1-8190-a2f62e15225b_id-center",
+            "size" : 500,
+            "width" : 0,
+            "height" : 0,
+            "width_percent" : 0.0,
+            "height_percent" : 0.0,
+            "closable" : false,
+            "spacing_open" : 0,
+            "resizable" : false
+          }
+        },
+        "layoutPageType" : [ "1", "2", "3", "4" ]
+      },
+      "absoluteWidgets" : [ {
+        "widgetId" : "1",
+        "isHidden" : false,
+        "isLocked" : false,
+        "widgetName" : "widget1",
+        "width" : 887,
+        "height" : 488,
+        "left" : 522,
+        "top" : 397,
+        "orgCenterLeftVal" : "50%",
+        "orgCenterTopVal" : "50%",
+        "width_percent" : 0.0,
+        "height_percent" : 0.0,
+        "left_percent" : 0.0,
+        "top_percent" : 0.0,
+        "zindex" : 1,
+        "cells" : {
+          "skPageLayoutCell_absWid_1_id-center" : {
+            "cellId" : "skPageLayoutCell_absWid_1_id-center",
+            "widget" : {
+              "pageId" : "192764660bc-3f2341dc-89a2-48c1-8190-a2f62e15225b",
+              "widgetId" : "2",
+              "widgetName" : "widget1",
+              "widgetType" : "global_Vue3RadarChartWidget",
+              "currentItemIdx" : 0,
+              "properties" : {
+                "hideDimension" : "true",
+                "absoluteLayout" : "false",
+                "layoutWidth" : "0",
+                "layoutHeight" : "0",
+                "layoutLeft" : "0",
+                "layoutTop" : "0",
+                "zIndex" : "1",
+                "RadarChartDataSingleConnector" : "RadarChartDataSingleConnector.global_connector_RadarChartDataSingleConnector",
+                "chooseTempID" : "1",
+                "option.radar.splitLine.lineStyle.color" : "",
+                "option.radar.splitArea.areaStyle.color" : "",
+                "widgetLabel" : "雷达图",
+                "accessControl" : "{}",
+                "lockByGroup" : "false",
+                "hideToolbar" : "false",
+                "parallaxBackground" : "false",
+                "parallaxBgUrlMoveRatio" : "1",
+                "layoutParentLeft" : "",
+                "layoutParentTop" : "",
+                "hasAreaSpecificEvents" : "false"
+              },
+              "connectorProperties" : {
+                "RadarChartDataSingleConnector" : {
+                  "connectorParams" : {
+                    "url" : "",
+                    "isShare" : "",
+                    "input" : { }
+                  },
+                  "connectorType" : "v2",
+                  "connector" : "RadarChartDataSingleConnector.global_connector_RadarChartDataSingleConnector",
+                  "connectorPeriod" : 0,
+                  "displayName" : "RadarChartDataSingleConnector",
+                  "connectorModel" : "RadarChartDataSingleViewModel",
+                  "connectorWidgetId" : "2",
+                  "connectorDataType" : "static",
+                  "connectorStaticData" : "{\r\n  \"resCode\": \"0\",\r\n  \"resMsg\": \"成功\",\r\n  \"result\": [\r\n    {\r\n      \"dataValue\": [\r\n        {\r\n          \"name\": \"红阳机械\",\r\n          \"value\": [\r\n            [\r\n              40,\r\n              30,\r\n              45,\r\n              5\r\n            ]\r\n          ]\r\n        }\r\n      ],\r\n      \"dataX\": [\r\n        \"工具\",\r\n        \"文化\",\r\n        \"方法\",\r\n        \"理念\"\r\n      ]\r\n    }\r\n  ]\r\n}",
+                  "connectorStaticDataBackup" : {
+                    "RadarChartDataSingleConnector.global_connector_RadarChartDataSingleConnector" : "{\r\n  \"resCode\": \"0\",\r\n  \"resMsg\": \"成功\",\r\n  \"result\": [\r\n    {\r\n      \"dataValue\": [\r\n        {\r\n          \"name\": \"红阳机械\",\r\n          \"value\": [\r\n            [\r\n              40,\r\n              30,\r\n              45,\r\n              5\r\n            ]\r\n          ]\r\n        }\r\n      ],\r\n      \"dataX\": [\r\n        \"工具\",\r\n        \"文化\",\r\n        \"方法\",\r\n        \"理念\"\r\n      ]\r\n    }\r\n  ]\r\n}"
+                  }
+                }
+              },
+              "events" : { },
+              "eventsArray" : [ ],
+              "sortOrder" : 2,
+              "items" : [ ],
+              "libWidget" : false,
+              "absWidget" : true
+            }
+          }
+        },
+        "anchorGroups" : [ ],
+        "layout" : {
+          "layoutId" : "1",
+          "showLayout" : true,
+          "layoutConfig" : {
+            "center" : {
+              "cellId" : "skPageLayoutCell_absWid_1_id-center",
+              "size" : 30,
+              "width" : 887,
+              "height" : 488,
+              "width_percent" : 0.0,
+              "height_percent" : 0.0,
+              "closable" : false,
+              "spacing_open" : 0,
+              "resizable" : false
+            }
+          },
+          "layoutPageType" : [ "1", "2", "3", "4" ]
+        },
+        "line" : {
+          "on" : false,
+          "color" : "",
+          "width" : 0,
+          "type" : "solid",
+          "startLeft" : 0.0,
+          "startTop" : 0.0,
+          "endLeft" : 0.0,
+          "endTop" : 0.0,
+          "style" : ""
+        },
+        "autoHeight" : false,
+        "autoHeightAdapter" : false,
+        "pagePart" : "center"
+      } ],
+      "properties" : {
+        "flexi_page" : "false",
+        "page_background_html" : "",
+        "page_background" : "false",
+        "page_background_image" : "true",
+        "page_parallax" : "false",
+        "page_background_color" : "",
+        "page_background_image_url" : "",
+        "pageBgHtml" : "",
+        "page_background_image_repeat_options" : ""
+      },
+      "resources" : [ ],
+      "metaTags" : { }
+    }
+  },
+  "anchorGroups" : [ ],
+  "properties" : { },
+  "facets" : {
+    "page_title" : "abc",
+    "page_folder" : "003f000000kxaz1iXBOi",
+    "page_uri" : "abc",
+    "transition" : "",
+    "cache_control_max_age" : "",
+    "expires" : "",
+    "expiresFormatted" : "",
+    "page_keywords" : "",
+    "page_content" : "",
+    "page_description" : "",
+    "grid_x" : "20",
+    "grid_y" : "20",
+    "grid_color" : "#EEEEF3"
+  },
+  "pageLevelMacro" : { },
+  "layoutType" : "3",
+  "pageLocked" : false
+}

@@ -1,0 +1,18 @@
+{
+	"appId": "000f000001H3hajpOy7E",
+	"appId.__objectType": "Application",
+	"appId.name": "astro_zero__test123",
+	"belongTo": null,
+	"category": null,
+	"createdDate": "2024-10-17 07:38:55",
+	"custom": true,
+	"fromInstall": null,
+	"id": "003f000001HFMKPin9qi",
+	"lastModifiedDate": "2024-10-17 07:38:55",
+	"name": "add",
+	"parent": null,
+	"protectMode": 0,
+	"seqNo": null,
+	"type": "Folder",
+	"visibility": 0
+}

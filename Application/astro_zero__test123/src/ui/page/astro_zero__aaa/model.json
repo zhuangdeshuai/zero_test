@@ -1,0 +1,231 @@
+{
+  "form_0" : {
+    "mapping" : [ {
+      "bindType" : "object",
+      "bindName" : "AttachFile",
+      "include" : "ALL",
+      "exclude" : ""
+    } ],
+    "fields" : [ {
+      "name" : "form_0",
+      "label" : "form_0",
+      "type" : "object",
+      "isRequired" : false,
+      "expand" : false,
+      "orign" : [ {
+        "type" : "object",
+        "name" : "AttachFile",
+        "mappingField" : "AttachFile"
+      } ],
+      "defaultValue" : "{}",
+      "defaultValueType" : "system",
+      "highlightRow" : false,
+      "rootInstanceId" : "form_0",
+      "id" : "form_0_0"
+    }, {
+      "name" : "id",
+      "label" : "记录 ID",
+      "type" : "xs_string_pk",
+      "isRequired" : true,
+      "orign" : [ {
+        "type" : "object",
+        "name" : "AttachFile",
+        "mappingField" : "id"
+      } ],
+      "parentId" : "form_0",
+      "expand" : false,
+      "highlightRow" : false,
+      "rootInstanceId" : "form_0",
+      "id" : "form_0_1",
+      "pId" : "form_0_0"
+    }, {
+      "name" : "name",
+      "label" : "名称",
+      "type" : "xs_string",
+      "isRequired" : false,
+      "orign" : [ {
+        "type" : "object",
+        "name" : "AttachFile",
+        "mappingField" : "name"
+      } ],
+      "parentId" : "form_0",
+      "expand" : false,
+      "highlightRow" : false,
+      "rootInstanceId" : "form_0",
+      "id" : "form_0_2",
+      "pId" : "form_0_0"
+    }, {
+      "name" : "fileName",
+      "label" : "文件名称",
+      "type" : "xs_string",
+      "isRequired" : true,
+      "orign" : [ {
+        "type" : "object",
+        "name" : "AttachFile",
+        "mappingField" : "fileName"
+      } ],
+      "parentId" : "form_0",
+      "expand" : false,
+      "highlightRow" : false,
+      "rootInstanceId" : "form_0",
+      "id" : "form_0_3",
+      "pId" : "form_0_0"
+    }, {
+      "name" : "category",
+      "label" : "文件类别",
+      "type" : "xs_string",
+      "isRequired" : false,
+      "orign" : [ {
+        "type" : "object",
+        "name" : "AttachFile",
+        "mappingField" : "category"
+      } ],
+      "parentId" : "form_0",
+      "expand" : false,
+      "highlightRow" : false,
+      "rootInstanceId" : "form_0",
+      "id" : "form_0_4",
+      "pId" : "form_0_0"
+    }, {
+      "name" : "url",
+      "label" : "文件URL",
+      "type" : "xs_string",
+      "isRequired" : true,
+      "orign" : [ {
+        "type" : "object",
+        "name" : "AttachFile",
+        "mappingField" : "url"
+      } ],
+      "parentId" : "form_0",
+      "expand" : false,
+      "highlightRow" : false,
+      "rootInstanceId" : "form_0",
+      "id" : "form_0_5",
+      "pId" : "form_0_0"
+    }, {
+      "name" : "instanceID",
+      "label" : "实例ID",
+      "type" : "xs_string",
+      "isRequired" : true,
+      "orign" : [ {
+        "type" : "object",
+        "name" : "AttachFile",
+        "mappingField" : "instanceID"
+      } ],
+      "parentId" : "form_0",
+      "expand" : false,
+      "highlightRow" : false,
+      "rootInstanceId" : "form_0",
+      "id" : "form_0_6",
+      "pId" : "form_0_0"
+    }, {
+      "name" : "taskID",
+      "label" : "任务ID",
+      "type" : "xs_string",
+      "isRequired" : false,
+      "orign" : [ {
+        "type" : "object",
+        "name" : "AttachFile",
+        "mappingField" : "taskID"
+      } ],
+      "parentId" : "form_0",
+      "expand" : false,
+      "highlightRow" : false,
+      "rootInstanceId" : "form_0",
+      "id" : "form_0_7",
+      "pId" : "form_0_0"
+    } ],
+    "actions" : [ {
+      "name" : "query",
+      "type" : "object",
+      "method" : "query",
+      "uri" : "AttachFile",
+      "input" : [ ],
+      "output" : [ {
+        "fieldName" : "id",
+        "mappingField" : "id"
+      }, {
+        "fieldName" : "name",
+        "mappingField" : "name"
+      }, {
+        "fieldName" : "fileName",
+        "mappingField" : "fileName"
+      }, {
+        "fieldName" : "category",
+        "mappingField" : "category"
+      }, {
+        "fieldName" : "url",
+        "mappingField" : "url"
+      }, {
+        "fieldName" : "instanceID",
+        "mappingField" : "instanceID"
+      }, {
+        "fieldName" : "taskID",
+        "mappingField" : "taskID"
+      } ]
+    }, {
+      "name" : "save",
+      "type" : "object",
+      "method" : "save",
+      "uri" : "AttachFile",
+      "output" : [ ],
+      "input" : [ {
+        "fieldName" : "id",
+        "mappingField" : "id"
+      }, {
+        "fieldName" : "name",
+        "mappingField" : "name"
+      }, {
+        "fieldName" : "fileName",
+        "mappingField" : "fileName"
+      }, {
+        "fieldName" : "category",
+        "mappingField" : "category"
+      }, {
+        "fieldName" : "url",
+        "mappingField" : "url"
+      }, {
+        "fieldName" : "instanceID",
+        "mappingField" : "instanceID"
+      }, {
+        "fieldName" : "taskID",
+        "mappingField" : "taskID"
+      } ]
+    }, {
+      "name" : "delete",
+      "type" : "object",
+      "method" : "delete",
+      "uri" : "AttachFile",
+      "output" : [ ],
+      "input" : [ {
+        "fieldName" : "id",
+        "mappingField" : "id"
+      }, {
+        "fieldName" : "name",
+        "mappingField" : "name"
+      }, {
+        "fieldName" : "fileName",
+        "mappingField" : "fileName"
+      }, {
+        "fieldName" : "category",
+        "mappingField" : "category"
+      }, {
+        "fieldName" : "url",
+        "mappingField" : "url"
+      }, {
+        "fieldName" : "instanceID",
+        "mappingField" : "instanceID"
+      }, {
+        "fieldName" : "taskID",
+        "mappingField" : "taskID"
+      } ]
+    }, {
+      "name" : "count",
+      "type" : "object",
+      "method" : "count",
+      "uri" : "AttachFile",
+      "input" : [ ],
+      "output" : [ ]
+    } ]
+  }
+}

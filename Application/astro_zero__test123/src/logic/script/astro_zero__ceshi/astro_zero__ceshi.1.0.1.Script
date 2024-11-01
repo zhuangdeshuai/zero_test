@@ -1,0 +1,23 @@
+{
+	"active": true,
+	"belongTo": "000f000001H3hajpOy7E",
+	"belongTo.__objectType": "Application",
+	"belongTo.name": "astro_zero__test123",
+	"catalogue": null,
+	"content": "// Here's your code.\r\nimport * as db from 'db';\r\nimport * as http from 'http';\r\n\r\n/*\r\n * The input parameter is defined by `@action.param()`.\r\n */\r\nexport class Input {\r\n    @action.param({ type: 'String', required: true })\r\n    wk_client_id: string\r\n\r\n    @action.param({ type: 'String', required: true })\r\n    wk_client_secret: string\r\n\r\n    @action.param({ type: 'String', required: true })\r\n    publish_app_id: string\r\n}\r\n\r\n/*\r\n * The output parameter is defined by `@action.param()`.\r\n */\r\nexport class Output {\r\n    @action.param({ type: 'any' })\r\n    result: string\r\n}\r\n\r\nexport class PublishApp2WeLink {\r\n    @action.method({ input: \"Input\", output: \"Output\" })\r\n    run(input: Input): Output {\r\n\r\n        return {\r\n            result: JSON.stringify(input)\r\n        }\r\n    }\r\n\r\n\r\n}",
+	"createdDate": "2024-10-11 07:17:42",
+	"custom": true,
+	"description": "",
+	"fromInstall": null,
+	"id": "001a000001H5NOBMvsxc",
+	"jscode": "\"use strict\";\r\nvar __decorate = (this \u0026\u0026 this.__decorate) || function (decorators, target, key, desc) {\r\n    var c = arguments.length, r = c \u003c 3 ? target : desc === null ? desc = Object.getOwnPropertyDescriptor(target, key) : desc, d;\r\n    if (typeof Reflect === \"object\" \u0026\u0026 typeof Reflect.decorate === \"function\") r = Reflect.decorate(decorators, target, key, desc);\r\n    else for (var i = decorators.length - 1; i \u003e= 0; i--) if (d = decorators[i]) r = (c \u003c 3 ? d(r) : c \u003e 3 ? d(target, key, r) : d(target, key)) || r;\r\n    return c \u003e 3 \u0026\u0026 r \u0026\u0026 Object.defineProperty(target, key, r), r;\r\n};\r\nObject.defineProperty(exports, \"__esModule\", { value: true });\r\nexports.PublishApp2WeLink = exports.Output = exports.Input = void 0;\r\n/*\r\n * The input parameter is defined by `@action.param()`.\r\n */\r\nvar Input = /** @class */ (function () {\r\n    function Input() {\r\n    }\r\n    __decorate([\r\n        action.param({ type: 'String', required: true })\r\n    ], Input.prototype, \"wk_client_id\", void 0);\r\n    __decorate([\r\n        action.param({ type: 'String', required: true })\r\n    ], Input.prototype, \"wk_client_secret\", void 0);\r\n    __decorate([\r\n        action.param({ type: 'String', required: true })\r\n    ], Input.prototype, \"publish_app_id\", void 0);\r\n    return Input;\r\n}());\r\nexports.Input = Input;\r\n/*\r\n * The output parameter is defined by `@action.param()`.\r\n */\r\nvar Output = /** @class */ (function () {\r\n    function Output() {\r\n    }\r\n    __decorate([\r\n        action.param({ type: 'any' })\r\n    ], Output.prototype, \"result\", void 0);\r\n    return Output;\r\n}());\r\nexports.Output = Output;\r\nvar PublishApp2WeLink = /** @class */ (function () {\r\n    function PublishApp2WeLink() {\r\n    }\r\n    PublishApp2WeLink.prototype.run = function (input) {\r\n        return {\r\n            result: JSON.stringify(input)\r\n        };\r\n    };\r\n    __decorate([\r\n        action.method({ input: \"Input\", output: \"Output\" })\r\n    ], PublishApp2WeLink.prototype, \"run\", null);\r\n    return PublishApp2WeLink;\r\n}());\r\nexports.PublishApp2WeLink = PublishApp2WeLink;\r\n//# sourceMappingURL=astro_zero__ceshi.js.map",
+	"label": null,
+	"lastModifiedDate": "2024-10-11 08:21:28",
+	"methodName": "PublishApp2WeLink.run",
+	"name": "astro_zero__ceshi",
+	"overridable": true,
+	"protectMode": 0,
+	"sourceMap": "{\"version\":3,\"file\":\"astro_zero__ceshi.js\",\"sourceRoot\":\"\",\"sources\":[\"astro_zero__ceshi.ts\"],\"names\":[],\"mappings\":\";;;;;;;;;AAIA;;GAEG;AACH;IAAA;IASA,CAAC;IAPG;QADC,MAAM,CAAC,KAAK,CAAC,EAAE,IAAI,EAAE,QAAQ,EAAE,QAAQ,EAAE,IAAI,EAAE,CAAC;+CAC7B;IAGpB;QADC,MAAM,CAAC,KAAK,CAAC,EAAE,IAAI,EAAE,QAAQ,EAAE,QAAQ,EAAE,IAAI,EAAE,CAAC;mDACzB;IAGxB;QADC,MAAM,CAAC,KAAK,CAAC,EAAE,IAAI,EAAE,QAAQ,EAAE,QAAQ,EAAE,IAAI,EAAE,CAAC;iDAC3B;IAC1B,YAAC;CAAA,AATD,IASC;AATY,sBAAK;AAWlB;;GAEG;AACH;IAAA;IAGA,CAAC;IADG;QADC,MAAM,CAAC,KAAK,CAAC,EAAE,IAAI,EAAE,KAAK,EAAE,CAAC;0CAChB;IAClB,aAAC;CAAA,AAHD,IAGC;AAHY,wBAAM;AAKnB;IAAA;IAUA,CAAC;IARG,+BAAG,GAAH,UAAI,KAAY;QAEZ,OAAO;YACH,MAAM,EAAE,IAAI,CAAC,SAAS,CAAC,KAAK,CAAC;SAChC,CAAA;IACL,CAAC;IALD;QADC,MAAM,CAAC,MAAM,CAAC,EAAE,KAAK,EAAE,OAAO,EAAE,MAAM,EAAE,QAAQ,EAAE,CAAC;gDAMnD;IAGL,wBAAC;CAAA,AAVD,IAUC;AAVY,8CAAiB\"}",
+	"version": "1.0.1",
+	"visibility": 0
+}

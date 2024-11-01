@@ -1,0 +1,22 @@
+{
+	"active": true,
+	"belongTo": null,
+	"category": "",
+	"coreVersion": "24.7.0",
+	"createdDate": "2024-10-10 07:05:12",
+	"custom": true,
+	"defaultTabId.__objectType": "Tab",
+	"defaultTabId.name": "Home",
+	"description": "",
+	"fromInstall": null,
+	"id": "000f000001H3hajpOy7E",
+	"label": "测试123",
+	"logo": "/lowcode/home/img/07-new.b538337.jpg",
+	"name": "astro_zero__test123",
+	"protectMode": 0,
+	"publishVersion": "0.0.1",
+	"theme": null,
+	"type": "Custom Application",
+	"type.name": "Custom Application",
+	"visibility": 0
+}

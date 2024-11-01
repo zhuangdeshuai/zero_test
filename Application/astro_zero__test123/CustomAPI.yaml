@@ -1,0 +1,53 @@
+swagger: "2.0"
+info:
+    description: OPEN API Swagger - 2.0
+    version: 1.0.0
+    title: Custom API Document
+schemes:
+    - http
+consumes:
+    - application/json
+produces:
+    - application/json
+paths:
+    /service/astro_zero__test123/1.0.0/test:
+        post:
+            tags:
+                - astro_zero__ceshi
+            operationId: aaa
+            parameters:
+                - name: aaa_Body
+                  in: body
+                  required: true
+                  schema:
+                    $ref: '#/definitions/aaa_Body'
+            responses:
+                200:
+                    description: 请求成功
+                    schema:
+                        $ref: '#/definitions/aaa_Response'
+                400:
+                    description: 错误请求
+definitions:
+    aaa_Body:
+        description: definition for body parameters in aaa
+        required:
+            - wk_client_id
+            - wk_client_secret
+            - publish_app_id
+        type: object
+        properties:
+            publish_app_id:
+                type: string
+            wk_client_id:
+                type: string
+            wk_client_secret:
+                type: string
+    aaa_Response:
+        description: definition for responses in aaa
+        type: object
+        properties:
+            result:
+                type: object
+                additionalProperties:
+                    type: object
